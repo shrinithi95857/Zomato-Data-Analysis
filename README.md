@@ -1,12 +1,12 @@
-# 🍽️ Zomato Restaurant Data Analysis & Rating Prediction
+# Zomato Restaurant Data Analysis & Rating Prediction
 
-## 👤 Author
+## Author
 Shrinithi  
 MSc Data Science, CIT  
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 This project focuses on cleaning and analyzing a real-world Zomato restaurant dataset.  
 The dataset contains messy and inconsistent data such as missing values, text-based fields, and mixed formats.
 
@@ -17,7 +17,7 @@ The goal of this project is to:
 
 ---
 
-## 📊 Why This Dataset?
+## Why This Dataset?
 The Zomato dataset was chosen because it closely represents real-world data.  
 It contains:
 - Missing values  
@@ -31,7 +31,7 @@ This makes it ideal for demonstrating:
 
 ---
 
-## 🧹 Data Cleaning
+## Data Cleaning
 The dataset was cleaned by:
 - Handling missing values  
 - Converting ratings and cost into numeric format  
@@ -40,14 +40,14 @@ The dataset was cleaned by:
 
 ---
 
-## ⚙️ Feature Engineering
+## Feature Engineering
 New features were created to improve analysis:
 - **cost_per_person** → derived from cost for two  
 - **cuisine_count** → number of cuisines offered  
 
 ---
 
-## 📊 Exploratory Data Analysis
+## Exploratory Data Analysis
 Key observations:
 - Most restaurants have ratings between 3.5 and 4.2  
 - Higher vote counts lead to more stable ratings  
@@ -55,36 +55,36 @@ Key observations:
 
 ---
 
-## 🤖 Machine Learning
+## Machine Learning
 Two models were used:
 - Random Forest Regressor  
 - Linear Regression  
 
-### 📊 Model Comparison
+### Model Comparison
 
 | Model | MAE | RMSE | R² Score |
 |------|------|------|---------|
 | Random Forest | 0.125 | 0.221 | 0.745 |
 | Linear Regression | 0.292 | 0.378 | 0.254 |
 
-👉 **Best Model: Random Forest**
+**Best Model: Random Forest**
 
 ---
 
-## 🧠 Conclusion
+## Conclusion
 Random Forest performed better as it captured non-linear relationships in the data.  
 The project shows how proper data cleaning and simple modeling can provide useful insights from real-world datasets.
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 - Ratings are subjective and may vary  
 - Dataset is limited to specific locations  
 - Some missing data may affect accuracy  
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 - Include more features like location encoding  
 - Use advanced models for better accuracy  
 - Expand dataset to include more regions  
