@@ -29,7 +29,7 @@ This makes it ideal for demonstrating:
 - Feature engineering  
 - Practical data analysis
 
-## 📊 Dataset
+## Dataset
 
 The dataset used in this project is not included in the repository due to its large size.  
 
