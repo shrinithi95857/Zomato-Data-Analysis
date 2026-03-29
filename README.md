@@ -27,7 +27,22 @@ It contains:
 This makes it ideal for demonstrating:
 - Data cleaning techniques  
 - Feature engineering  
-- Practical data analysis  
+- Practical data analysis
+
+## 📊 Dataset
+
+The dataset used in this project is not included in the repository due to its large size.  
+
+You can download it from Kaggle:  
+https://www.kaggle.com/datasets/rajeshrampure/zomato-dataset  
+
+The dataset contains information about restaurants such as:
+- Name and location  
+- Cuisines offered  
+- Ratings and votes  
+- Approximate cost for two people  
+
+It includes real-world inconsistencies such as missing values, text-based fields, and mixed formats, making it suitable for data cleaning and preprocessing tasks.
 
 ---
 
